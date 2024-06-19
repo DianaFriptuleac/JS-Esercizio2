@@ -135,21 +135,21 @@ if(numb1 > numb2 && numb1 > numb3){
   }else{
     console.log (numb2, numb3, numb1);
   }
-/*}else{                                  //soluzione1 per l'ultima parte
+ }else{                                  //soluzione1 per l'ultima parte
   if(numb1 > numb3){
     console.log (numb3,numb1, numb2);
   }else{
     console.log(numb3, numb2, numb1);
   }
-}*/
-}else{
-  if(numb3 > numb1 && numb3 > numb2)      //soluzione 2 per l'ultima parte
+}
+/*}else{
+  if(numb3 > numb1 && numb3 > numb2)      //soluzione 2 per l'ultima parte appesantita
     if(numb1 > numb2){
     console.log (numb3,numb1, numb2);
   }else{
     console.log(numb3, numb2, numb1);
   }
-}
+}*/
 
 /*let num1 = 8;
 let num2 = 1;
@@ -163,18 +163,28 @@ console.log (array);  */       //soluzione con array ma arrivati a 10 non va
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log('******Esercizio8****')
+console.log('******Esercizio8soluzione1****')
 
-let vaLue = false;
+let vaLue = "12";
 
-if(typeof vaLue === "number"){
+ if(typeof vaLue === "number"){
   console.log ("Number");
 }else if
   (typeof vaLue === "string"){
     console.log("Stringa");
   }else{
-    console.log ("Booleano");
+    console.log ("Non è ne un numero ne una stringa");
   }
+
+
+  console.log('******Esercizio8_soluzione2****')
+
+if(typeof vaLue === "number"){
+  console.log ("Number");
+}else{
+  console.log ("Not Number");
+}
+
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
@@ -203,10 +213,10 @@ console.log('Numero pari')
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log('******Esercizio10****')
+console.log('******Esercizio10_soluzione1****')
 
 
-let val = 8;
+let val = 14;
   if (val < 10 && val >= 5) {
       console.log("Meno di 10");
     } else if (val < 5) {
@@ -215,6 +225,15 @@ let val = 8;
       console.log("Uguale a 10 o maggiore");
     }
 
+    console.log('******Esercizio10_soluzione2****')
+
+    if (val < 5) {
+      console.log("Meno di 5");
+    } else if (val < 10) {
+      console.log("Meno di 10");
+    } else {
+      console.log("Uguale a 10 o maggiore");
+    }
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
@@ -252,6 +271,10 @@ console.log('******Esercizio13****')
 me.skills.pop();
 console.log(me);
 
+/*console.log('******Esercizio13-soluzione 2****')//quando voglio eliminare più array partendo dalla fine
+me.skills.length = me.skills.length -1;
+console.log(me);*/
+
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
@@ -259,11 +282,24 @@ console.log(me);
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log('******Esercizio14****')
 
-let myArray = new Array();
+/*let myArray = new Array();
 console.log(myArray);
 
 myArray = ['1','2','3','4','5','6','7','8','9','10'];
-console.log(myArray);
+console.log(myArray);*/  //ho creato un costrutture che è myArray
+
+const myArr =[];
+myArr [0] = 1;
+myArr [0] = 2;
+myArr [0] = 3;
+myArr [0] = 4;
+myArr [0] = 5;
+myArr [0] = 6;
+myArr [0] = 7;
+myArr [0] = 8;
+myArr [0] = 9;
+myArr [0] = 10;
+console.log(myArr);
 
 
 /* ESERCIZIO 15
@@ -273,5 +309,5 @@ console.log(myArray);
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log('******Esercizio15****')
 
-myArray[9] = '100';
-console.log(myArray);
+myArr[9] = '100';
+console.log(myArr);
