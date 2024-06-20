@@ -12,7 +12,7 @@ if (number1 > number2) {
   console.log('il numero maggiore è ' + number1);
 } else if (number1 < number2) {
   console.log('il numero maggiore è ' + number2);
-}else {
+} else {
   console.log('i numeri sono uguali');
 }
 
@@ -32,9 +32,9 @@ if (number3 === 5) {
 }
 
 console.log('******Esercizio2-soluzione2*****')
-if (number3 !== 5){
+if (number3 !== 5) {
   console.log('not equal');
-}else{
+} else {
   console.log('equal');
 }
 /* ESERCIZIO 3
@@ -46,9 +46,9 @@ console.log('******Esercizio3*****')
 
 let number4 = 10;
 
-if (number4 % 5 === 0){
-console.log('divisibile per 5');
-}else {
+if (number4 % 5 === 0) {
+  console.log('divisibile per 5');
+} else {
   console.log('non divisibile per 5');
 }
 
@@ -63,10 +63,10 @@ let number5 = 35;
 let number6 = 19;
 let myNumb = 8;
 
-if(number5 === myNumb || number6 === myNumb || number5 - number6 === myNumb || number6 - number5 === myNumb || number5 + number6 === myNumb){
-  console.log ('una condizione restituisce ' + myNumb);
-}else{
-  console.log ('nessuna delle condizioni restituisce ' + myNumb);
+if (number5 === myNumb || number6 === myNumb || number5 - number6 === myNumb || number6 - number5 === myNumb || number5 + number6 === myNumb) {
+  console.log('una condizione restituisce ' + myNumb);
+} else {
+  console.log('nessuna delle condizioni restituisce ' + myNumb);
 }
 
 
@@ -104,9 +104,9 @@ console.log('******Esercizio6****');
 let discount = 0.2; // (cosi si scrivono i 20%)
 totalShoppingCart = totalShoppingCart * (1 - discount); // (100% - 20% )
 
-if(totalShoppingCart > 50){
+if (totalShoppingCart > 50) {
   checkout = totalShoppingCart;
-}else{
+} else {
   checkout = totalShoppingCart + delivery;
 }
 console.log(checkout);
@@ -123,22 +123,22 @@ console.log('******Esercizio7****')
 let numb1 = 10;
 let numb2 = 115;
 let numb3 = 80;
-if(numb1 > numb2 && numb1 > numb3){
-  if (numb2 > numb3){
+if (numb1 > numb2 && numb1 > numb3) {
+  if (numb2 > numb3) {
     console.log(numb1, numb2, numb3);
-  }else{
-    console.log (numb1, numb3, numb2);
+  } else {
+    console.log(numb1, numb3, numb2);
   }
-}else if (numb2 > numb1 && numb2 > numb3){
-  if (numb1 > numb3){
+} else if (numb2 > numb1 && numb2 > numb3) {
+  if (numb1 > numb3) {
     console.log(numb2, numb1, numb3);
-  }else{
-    console.log (numb2, numb3, numb1);
+  } else {
+    console.log(numb2, numb3, numb1);
   }
- }else{                                  //soluzione1 per l'ultima parte
-  if(numb1 > numb3){
-    console.log (numb3,numb1, numb2);
-  }else{
+} else {                                  //soluzione1 per l'ultima parte
+  if (numb1 > numb3) {
+    console.log(numb3, numb1, numb2);
+  } else {
     console.log(numb3, numb2, numb1);
   }
 }
@@ -167,22 +167,22 @@ console.log('******Esercizio8soluzione1****')
 
 let vaLue = "12";
 
- if(typeof vaLue === "number"){
-  console.log ("Number");
-}else if
-  (typeof vaLue === "string"){
-    console.log("Stringa");
-  }else{
-    console.log ("Non è ne un numero ne una stringa");
-  }
+if (typeof vaLue === "number") {
+  console.log("Number");
+} else if
+  (typeof vaLue === "string") {
+  console.log("Stringa");
+} else {
+  console.log("Non è ne un numero ne una stringa");
+}
 
 
-  console.log('******Esercizio8_soluzione2****')
+console.log('******Esercizio8_soluzione2****')
 
-if(typeof vaLue === "number"){
-  console.log ("Number");
-}else{
-  console.log ("Not Number");
+if (typeof vaLue === "number") {
+  console.log("Number");
+} else {
+  console.log("Not Number");
 }
 
 
@@ -194,8 +194,8 @@ if(typeof vaLue === "number"){
 console.log('******Esercizio9****')
 const newNr = 4;
 
-if ((newNr % 2) === 0){
-console.log('Numero pari')
+if ((newNr % 2) === 0) {
+  console.log('Numero pari')
 } else {
   console.log('Numero dispari')
 }
@@ -217,23 +217,23 @@ console.log('******Esercizio10_soluzione1****')
 
 
 let val = 14;
-  if (val < 10 && val >= 5) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
-      console.log("Meno di 5");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
+if (val < 10 && val >= 5) {
+  console.log("Meno di 10");
+} else if (val < 5) {
+  console.log("Meno di 5");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
 
-    console.log('******Esercizio10_soluzione2****')
+console.log('******Esercizio10_soluzione2****')
 
-    if (val < 5) {
-      console.log("Meno di 5");
-    } else if (val < 10) {
-      console.log("Meno di 10");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
+if (val < 5) {
+  console.log("Meno di 5");
+} else if (val < 10) {
+  console.log("Meno di 10");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
@@ -288,17 +288,17 @@ console.log(myArray);
 myArray = ['1','2','3','4','5','6','7','8','9','10'];
 console.log(myArray);*/  //ho creato un costrutture che è myArray
 
-const myArr =[];
-myArr [0] = 1;
-myArr [0] = 2;
-myArr [0] = 3;
-myArr [0] = 4;
-myArr [0] = 5;
-myArr [0] = 6;
-myArr [0] = 7;
-myArr [0] = 8;
-myArr [0] = 9;
-myArr [0] = 10;
+const myArr = [];
+myArr[0] = 1;
+myArr[0] = 2;
+myArr[0] = 3;
+myArr[0] = 4;
+myArr[0] = 5;
+myArr[0] = 6;
+myArr[0] = 7;
+myArr[0] = 8;
+myArr[0] = 9;
+myArr[0] = 10;
 console.log(myArr);
 
 
